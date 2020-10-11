@@ -1,0 +1,58 @@
+/*
+ * This file is part of gen-pkgs-all.
+
+ * gen-pkgs-all is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+
+ * gen-pkgs-all is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+
+ * You should have received a copy of the GNU General Public License
+ * along with gen-pkgs-all.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+
+/* General */
+
+html,
+body
+{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body
+{
+    background-color: #18242b;
+    color: #bec4d3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Main */
+
+#main
+{
+    padding: 10px;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+a:link
+{
+    color: #00ffcc;
+}
+
+a:visited
+{
+    color: #39ac73;
+}

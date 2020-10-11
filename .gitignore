@@ -1,0 +1,12 @@
+*.dump
+*.ez
+*.swp
+*.tar
+*~
+,*
+.fetch/
+.idea/
+.vscode/
+.~lock.*
+public/index.html
+public/overlays/
