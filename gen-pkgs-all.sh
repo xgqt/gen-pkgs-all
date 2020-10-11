@@ -52,7 +52,7 @@ cat >> ./index.html << BLOCK
 <body>
 <div id="main">
 <h1>
-    Package report generated each day at 01:00 AM (or otherwise by Gitlab pipeline schedule)
+    Package report generated each day at 01:00 AM (or otherwise by GitLab pipeline schedule)
 </h1>
 <ul>
     <li>
