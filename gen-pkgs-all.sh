@@ -1,5 +1,6 @@
 #!/bin/sh
 
+
 # This file is part of gen-pkgs-all.
 
 # gen-pkgs-all is free software: you can redistribute it and/or modify
@@ -24,7 +25,6 @@ trap 'exit 128' INT
 export PATH
 
 
-# Maybe: /home/xy/.cache/eselect-repo/repositories.xml
 repo_urls="$(eselect repository list | grep -i git | cut -d "(" -f 2 | sed 's/)//' | sed 's/cgit/anongit/' | sed 's/\/dev/\/git\/dev/' | sed 's/\/proj/\/git\/proj/' | sed 's/\/user/\/git\/user/' | sort)"
 num_repos="$(echo "${repo_urls}" | wc -l)"
 cnt_repos=$((0))
