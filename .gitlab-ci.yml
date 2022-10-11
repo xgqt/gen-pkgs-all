@@ -15,12 +15,17 @@
 
 image: registry.gitlab.com/src_prepare/gentoo-repoman-container:src_prepare
 
+
 pages:
   stage: deploy
+
   script:
-  - time (sh ./gen-pkgs-all.sh)
+    - time (sh ./gen-pkgs-all.sh)
+
   artifacts:
+    expire_in: 1 week
     paths:
-    - public
+      - public
+
   only:
-  - master
+    - master
